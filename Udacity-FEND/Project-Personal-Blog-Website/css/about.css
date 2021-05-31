@@ -5,7 +5,14 @@
 
 .video {
   width: 100%;
-  height: auto;
+  height: 100%;
+  object-fit: cover;
+  /*width: 100%;*/
+  /*height: auto;*/
+}
+
+.about__background-video {
+  height: 500px;
 }
 
 .about__content {
