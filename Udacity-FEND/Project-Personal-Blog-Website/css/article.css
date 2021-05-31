@@ -6,8 +6,8 @@
 }
 
 .article__content {
-  margin-left: 5em;
-  margin-right: 5em;
+  margin-left: 0;
+  margin-right: 0;
 }
 
 .article__category {
@@ -116,6 +116,13 @@
 
 .underline {
   text-decoration: underline;
+}
+
+@media screen and (min-width: 600px) {
+  .article__content {
+    margin-left: 5em;
+    margin-right: 5em;
+  }
 }
 
 /* adjustments to the Font Awesome fonts */
