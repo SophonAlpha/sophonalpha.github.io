@@ -18,7 +18,7 @@
 
 .article__image {
   height: 200px;
-  margin: 1em -5em 2em;
+  margin: 1em 0 2em;
   position: relative;
 }
 
@@ -122,6 +122,10 @@
   .article__content {
     margin-left: 5em;
     margin-right: 5em;
+  }
+
+  .article__image {
+    margin: 1em -5em 2em;
   }
 }
 
