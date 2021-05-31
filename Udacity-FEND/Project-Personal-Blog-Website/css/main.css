@@ -1,0 +1,28 @@
+@import "blog.css";
+@import "article-card.css";
+@import "article.css";
+@import "subscribe.css";
+@import "about.css";
+
+:root {
+  /*
+  Generated with coolers: https://coolors.co/264653-2a9d8f-e9c46a-f4a261-e76f51
+  */
+  --charcoal: #264653ff;
+  --persian-green: #2a9d8fff;
+  --orange-yellow-crayola: #e9c46aff;
+  --sandy-brown: #f4a261ff;
+  --burnt-sienna: #e76f51ff;
+}
+
+.image {
+  /* Always fit images into parent container */
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.no-style-link {
+  text-decoration: inherit;
+  color: inherit;
+}

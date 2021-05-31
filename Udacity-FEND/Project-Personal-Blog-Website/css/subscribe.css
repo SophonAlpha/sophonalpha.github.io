@@ -1,0 +1,67 @@
+.subscribe {
+  padding: 10em 0;
+  background:
+          linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+          url("../img/forest-438432_1920.jpg")
+          center center;
+  background-size: cover;
+  color: white;
+}
+
+.subscribe__header {
+  text-align: center;
+}
+
+.subscribe__header::after {
+  content: "";
+  display: inline-block;
+  width: 60px;
+  height: 5px;
+  background: var(--persian-green);
+  margin-bottom: 3em;
+}
+
+.subscribe__form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+.input {
+  border: none;
+  margin-left: 10px;
+  margin-right: 10px;
+  height: 2.5em;
+  width: 15em;
+  font-size: 1em;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 2em;
+}
+
+.button {
+  border: none;
+  margin-left: 10px;
+  margin-right: 10px;
+  height: 2.5em;
+  font-size: 1em;
+  padding-left: 25px;
+  padding-right: 25px;
+  border-radius: 2em;
+  background-color: var(--persian-green);
+  color: white;
+  transition: 0.2s;
+}
+
+.button:hover {
+  background-color: var(--charcoal);
+}
+
+@media screen and (min-width: 600px) {
+  .subscribe__form {
+    flex-direction: row;
+    gap: 0;
+  }
+}

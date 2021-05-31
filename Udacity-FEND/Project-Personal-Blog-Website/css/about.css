@@ -1,0 +1,36 @@
+.about {
+  background-color: black;
+  position: relative;
+}
+
+.video {
+  width: 100%;
+  height: auto;
+}
+
+.about__content {
+  position: absolute;
+  top: 4em;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0);
+  color: white;
+  padding: 2em;
+  max-width: 30em;
+}
+
+.about__credits-banner {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 20px;
+  background-color: rgba(255, 255, 255, 0.5);
+  display: flex;
+  justify-content: flex-end;
+}
+
+.about__credits-info {
+  color: black;
+  font-size: 0.7em;
+  align-self: center;
+  padding-right: 1em;
+}

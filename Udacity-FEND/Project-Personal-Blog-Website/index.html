@@ -1,1 +1,138 @@
-Project: Personal Blog Website
+<!--
+
+Ideas for blog website designs:
+  https://colorlib.com/wp/free-blogger-templates/
+  https://zendepot.de/finanzielle-ziele/
+
+Create color palettes:
+  https://coolors.co/palettes/trending
+
+Title generator:
+  https://www.title-generator.com
+
+Lorem ipsum generator:
+  https://fungenerators.com/lorem-ipsum/lorem/
+
+Images:
+ https://pixabay.com/
+
+Fonts:
+  https://fontawesome.com/
+
+Introduction to BEM:
+  https://css-tricks.com/bem-101/
+
+-->
+
+
+<!doctype html>
+
+<html lang="en">
+
+<head>
+
+  <title>The Blog</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+
+</head>
+
+
+<body>
+
+<div class="blog">
+  <div class="blog__header">
+    <div class="blog__header-title">
+      <h1>The Blog</h1>
+      <p><i>"Make it as simple as possible, but not simpler."</i></p>
+      <p>Albert Einstein</p>
+    </div>
+    <div class="blog__header-navbar">
+      <ul class="blog__navbar">
+        <li class="blog__navbar-item"><a class="no-style-link" href="index.html">Home</a></li>
+        <li class="blog__navbar-item"><a class="no-style-link" href="site/subscribe.html">Subscribe</a></li>
+        <li class="blog__navbar-item"><a class="no-style-link" href="site/about.html">About</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="blog__content">
+    <a class="no-style-link" href="articles/a-guide-to-city-travel-at-any-age.html">
+      <div class="article-card">
+        <div class="article-card__image">
+          <img class="image"
+               src="img/buildings-690364_1920.jpg"
+               alt="High altitude view of city skyline">
+        </div>
+        <p class="article-card__category">Travel</p>
+        <h2 class="article-card__header">A Guide To City Travel At Any Age</h2>
+        <p class="article-card__excerpt">Lorem ipsum dolor sit amet consectetur adipiscing, elit nam
+          fermentum viverra sem, et magna etiam quisque nullam. Mi a ornare gravida senectus
+          praesent metus ullamcorper rhoncus, ac tristique consequat habitasse fermentum in mauris
+          adipiscing rutrum, tempor id imperdiet nullam commodo sem venenatis. Taciti tincidunt
+          himenaeos aptent tempor lobortis ... </p>
+        <p class="article-card__date">25 July 2020</p>
+      </div>
+    </a>
+    <a class="no-style-link" href="https://google.com">
+      <div class="article-card">
+        <div class="article-card__image">
+          <img class="image"
+               src="img/hamburger-494706_1920.jpg"
+               alt="Bottle of red wine, two wine glasses, open fire in the background">
+        </div>
+        <p class="article-card__category">Food</p>
+        <h2 class="article-card__header">Don't Fall For This Hamburger Scam</h2>
+        <p class="article-card__excerpt">Raw Kale and Oyster Mushroom Bread with a wisp of Savory Almond
+          Pie. </p>
+        <p class="article-card__excerpt">Lorem ipsum dolor sit amet consectetur adipiscing elit neque,
+          cursus lacinia semper nibh donec vestibulum ligula class, tellus consequat mattis
+          placerat fusce eros sodales. Vitae faucibus facilisis iaculis sem auctor viverra
+          molestie ornare, rutrum consequat eget proin odio augue pretium litora nullam, sociosqu
+          felis class sit ut enim curae. Sagittis praesent commodo ...</p>
+        <p class="article-card__date">7 February 2020</p>
+      </div>
+    </a>
+    <a class="no-style-link" href="https://google.com">
+      <div class="article-card">
+        <div class="article-card__image">
+          <img class="image"
+               src="img/kuala-lumpur-1820944_1920.jpg"
+               alt="Night view of Kuala Lumpur skyline">
+        </div>
+        <p class="article-card__category">Travel</p>
+        <h2 class="article-card__header">10 Secret Things You Didn't Know About City Travel</h2>
+        <p class="article-card__excerpt">Lorem ipsum dolor sit amet consectetur adipiscing, elit nam
+          fermentum viverra sem, et magna etiam quisque nullam. Mi a ornare gravida senectus
+          praesent metus ullamcorper rhoncus, ac tristique consequat habitasse fermentum in mauris
+          adipiscing rutrum, tempor id imperdiet nullam commodo sem venenatis. Taciti tincidunt
+          himenaeos aptent tempor lobortis ... </p>
+        <p class="article-card__date">5 May 2020</p>
+      </div>
+    </a>
+    <a class="no-style-link" href="https://google.com">
+      <div class="article-card">
+        <div class="article-card__image">
+          <img class="image"
+               src="img/red-wine-2443699_1920.jpg"
+               alt="Bottle of red wine, two wine glasses, open fire in the background">
+        </div>
+        <p class="article-card__category">Food, Wine</p>
+        <h2 class="article-card__header">What Everyone Ought To Know About Pinot Grigio</h2>
+        <p class="article-card__excerpt">Gonzales Winery brings together stale Cap’n Crunch midtones and a
+          poorly-filtered shrimp bouquet in their 2012 Sauvignon Blanc ... </p>
+        <p class="article-card__date">7 February 2020</p>
+      </div>
+    </a>
+  </div>
+    <div class="blog__footer">Project "Personal Blog Website" - Udacity Front End Web Developer
+    Nanodegree Program
+  </div>
+</div>
+
+</body>
+
+
+</html>
