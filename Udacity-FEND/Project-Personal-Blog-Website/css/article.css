@@ -22,6 +22,11 @@
   position: relative;
 }
 
+.figure-caption {
+  font-style: italic;
+  font-size: 0.8em;
+}
+
 .article__credits-banner {
   position: absolute;
   bottom: 0;
