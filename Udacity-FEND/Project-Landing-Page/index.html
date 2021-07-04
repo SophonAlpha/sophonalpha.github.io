@@ -1,0 +1,180 @@
+<!--
+
+Research notes:
+---------------
+
+- A Complete Guide to Flexbox
+  https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+
+-->
+
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>A Landing Page</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description"
+        content="Landing page project for Udacity Front End Web Developer Nanodegree Program.">
+
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Nunito&family=Spartan:wght@300&display=swap"
+        rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap"
+        rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined"
+    rel="stylesheet">
+
+  <script src="js/app.js"></script>
+
+</head>
+<body>
+
+  <div class="landing-page">
+
+    <header>
+      <div id="header-box" class="header-box">
+        <div class="header">
+          <div class="horizontal-box--space-between">
+            <div id="header__logo" class="header__logo">StayWell<span class="material-icons-outlined">
+              &thinsp;&#xeb4c;&thinsp;</span>Pharmacy
+            </div>
+            <div class="header__menu-icon">
+              <span id="menu-icon" class="material-icons-outlined">&thinsp;&#xe5d2;</span>
+            </div>
+          </div>
+          <nav>
+            <ul id="menu" class="header__menu">
+              <!--
+                Menu will be built by JavaScript based on sections in this HTML file.
+              -->
+            </ul>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <div id="sections" class="content-box">
+
+      <div>
+        <section id="section-1" class="section"
+                 data-menu-item-text="Welcome">
+          <div class="section-content">
+            <h1 class="section__heading">Welcome to StayWell Pharmacy</h1>
+            <p>Elementum litora montes malesuada dictum placerat penatibus feugiat facilisis lectus,
+              nulla
+              posuere aliquet metus etiam ornare diam
+              ullamcorper mus, orci hac consectetur facilisi vivamus arcu lobortis lacus. Ultricies
+              hendrerit per natoque volutpat erat facilisis, dictumst leo penatibus mattis vivamus
+              egestas,
+              ipsum faucibus lectus primis montes.</p>
+            <p>Potenti ut aliquet imperdiet dictumst sed class nulla, congue nostra egestas enim tempus
+              mattis feugiat netus, arcu condimentum vestibulum nec conubia hac. Cursus scelerisque
+              ridiculus tristique iaculis fusce lobortis mollis penatibus habitant fermentum pretium,
+              aptent
+              semper non a sed nam est interdum molestie dui, proin sociosqu quam conubia lacus
+              malesuada
+              volutpat quisque viverra convallis.</p>
+            <p>Nisi feugiat accumsan aptent laoreet consectetur habitant purus malesuada enim, dapibus
+              sollicitudin posuere suspendisse fermentum mauris elementum tincidunt, commodo at
+              habitasse
+              montes ac non velit scelerisque.</p>
+            <hr class="section__ruler" />
+          </div>
+        </section>
+
+        <section id="section-2" class="section"
+                 data-menu-item-text="Our Stores">
+          <div class="section-content">
+            <h1 class="section__heading">Our Stores</h1>
+            <p>Elementum litora montes malesuada dictum placerat penatibus feugiat facilisis lectus, nulla
+              posuere aliquet metus etiam ornare diam
+              ullamcorper mus, orci hac consectetur facilisi vivamus arcu lobortis lacus. Ultricies
+              hendrerit per natoque volutpat erat facilisis, dictumst leo penatibus mattis vivamus egestas,
+              ipsum faucibus lectus primis montes.</p>
+            <p>Potenti ut aliquet imperdiet dictumst sed class nulla, congue nostra egestas enim tempus
+              mattis feugiat netus, arcu condimentum vestibulum nec conubia hac. Cursus scelerisque
+              ridiculus tristique iaculis fusce lobortis mollis penatibus habitant fermentum pretium, aptent
+              semper non a sed nam est interdum molestie dui, proin sociosqu quam conubia lacus malesuada
+              volutpat quisque viverra convallis.</p>
+            <p>Nisi feugiat accumsan aptent laoreet consectetur habitant purus malesuada enim, dapibus
+              sollicitudin posuere suspendisse fermentum mauris elementum tincidunt, commodo at habitasse
+              montes ac non velit scelerisque.</p>
+            <hr class="section__ruler" />
+          </div>
+        </section>
+
+        <section id="section-3" class="section"
+                 data-menu-item-text="Home Delivery">
+          <div class="section-content">
+            <h1 class="section__heading">Home Delivery</h1>
+            <p>Elementum litora montes malesuada dictum placerat penatibus feugiat facilisis lectus, nulla
+              posuere aliquet metus etiam ornare diam
+              ullamcorper mus, orci hac consectetur facilisi vivamus arcu lobortis lacus. Ultricies
+              hendrerit per natoque volutpat erat facilisis, dictumst leo penatibus mattis vivamus egestas,
+              ipsum faucibus lectus primis montes.</p>
+            <p>Potenti ut aliquet imperdiet dictumst sed class nulla, congue nostra egestas enim tempus
+              mattis feugiat netus, arcu condimentum vestibulum nec conubia hac. Cursus scelerisque
+              ridiculus tristique iaculis fusce lobortis mollis penatibus habitant fermentum pretium, aptent
+              semper non a sed nam est interdum molestie dui, proin sociosqu quam conubia lacus malesuada
+              volutpat quisque viverra convallis.</p>
+            <p>Nisi feugiat accumsan aptent laoreet consectetur habitant purus malesuada enim, dapibus
+              sollicitudin posuere suspendisse fermentum mauris elementum tincidunt, commodo at habitasse
+              montes ac non velit scelerisque.</p>
+            <hr class="section__ruler" />
+          </div>
+        </section>
+
+        <section id="section-4" class="section"
+                 data-menu-item-text="Products">
+          <div class="section-content">
+            <h1 class="section__heading">Products</h1>
+            <p>Elementum litora montes malesuada dictum placerat penatibus feugiat facilisis lectus, nulla
+              posuere aliquet metus etiam ornare diam
+              ullamcorper mus, orci hac consectetur facilisi vivamus arcu lobortis lacus. Ultricies
+              hendrerit per natoque volutpat erat facilisis, dictumst leo penatibus mattis vivamus egestas,
+              ipsum faucibus lectus primis montes.</p>
+            <p>Potenti ut aliquet imperdiet dictumst sed class nulla, congue nostra egestas enim tempus
+              mattis feugiat netus, arcu condimentum vestibulum nec conubia hac. Cursus scelerisque
+              ridiculus tristique iaculis fusce lobortis mollis penatibus habitant fermentum pretium, aptent
+              semper non a sed nam est interdum molestie dui, proin sociosqu quam conubia lacus malesuada
+              volutpat quisque viverra convallis.</p>
+            <p>Nisi feugiat accumsan aptent laoreet consectetur habitant purus malesuada enim, dapibus
+              sollicitudin posuere suspendisse fermentum mauris elementum tincidunt, commodo at habitasse
+              montes ac non velit scelerisque.</p>
+            <hr class="section__ruler" />
+          </div>
+        </section>
+
+        <section id="section-5" class="section"
+                 data-menu-item-text="Contact">
+          <div class="section-content">
+            <h1 class="section__heading">Contact</h1>
+            <p>Elementum litora montes malesuada dictum placerat penatibus feugiat facilisis lectus, nulla
+              posuere aliquet metus etiam ornare diam
+              ullamcorper mus, orci hac consectetur facilisi vivamus arcu lobortis lacus. Ultricies
+              hendrerit per natoque volutpat erat facilisis, dictumst leo penatibus mattis vivamus egestas,
+              ipsum faucibus lectus primis montes.</p>
+            <p>Potenti ut aliquet imperdiet dictumst sed class nulla, congue nostra egestas enim tempus
+              mattis feugiat netus, arcu condimentum vestibulum nec conubia hac. Cursus scelerisque
+              ridiculus tristique iaculis fusce lobortis mollis penatibus habitant fermentum pretium, aptent
+              semper non a sed nam est interdum molestie dui, proin sociosqu quam conubia lacus malesuada
+              volutpat quisque viverra convallis.</p>
+            <p>Nisi feugiat accumsan aptent laoreet consectetur habitant purus malesuada enim, dapibus
+              sollicitudin posuere suspendisse fermentum mauris elementum tincidunt, commodo at habitasse
+              montes ac non velit scelerisque.</p>
+            <hr class="section__ruler" />
+          </div>
+        </section>
+      </div>
+
+    </div>
+
+  </div>
+
+</body>
+</html>
