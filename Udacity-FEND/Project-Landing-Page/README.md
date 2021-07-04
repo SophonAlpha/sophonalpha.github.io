@@ -5,7 +5,7 @@ A simple project to demonstrate building the menu of a web page using JavaScript
 the JavaScript retrieves all HTML elements with the `class="section"` attribute. A `data-` 
 attribute is used to specify the menu item that should be displayed for the section.
 
-To see a demo of the page click here.
+To see a demo of the page click [here](https://sophonalpha.github.io/Udacity-FEND/Project-Landing-Page/). 
 
 An example:
 

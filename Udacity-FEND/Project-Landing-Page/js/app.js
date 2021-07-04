@@ -124,7 +124,7 @@ function menuIconClick() {
 function scroll() {
     const viewWindow = document.getElementById('sections');
     const triggerDiff = 30; // Minimum scroll distance before doing something.
-    const scrollTimeOut = 100;
+    const scrollTimeOut = 50;
 
     // To reduce performance load, we only do something when a minimum scroll
     // distance has been covered.
@@ -160,13 +160,9 @@ function scrollingStopped() {
 
         // Get the item of the menu corresponding to the section in focus.
         if (!(focusSection == null)) {
-            let menuItems = [];
-            let menuItemIds = focusSection.getAttribute('data-menu-items');
-            for (let menuItemId of menuItemIds.split(' ')) {
-                menuItems.push(document.getElementById(menuItemId));
-            }
+            let menuItem = document.getElementById(`menu-${focusSection.id}`);
             // Set underline at menu item.
-            menuSetUnderline(menuItems);
+            menuSetUnderline(menuItem);
         }
     }
     state.scrollStartedByMenuClick = false;
